@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #587bc7;
+}
+
+.button {
+  background-color: rgba(153, 153, 153, 0);
+  border-radius: 0;
+  &:hover {
+    background-color: rgba(153, 153, 153, 0);
+  }
+}

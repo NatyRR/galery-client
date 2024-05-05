@@ -1,0 +1,79 @@
+.container {
+  height: 100%;
+  overflow: auto;
+  padding-top: 1.2rem;
+  background-color: #cbd5e1;
+}
+
+.head {
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding-inline: 1.3rem;
+  background-color: #6d8dbe;
+  justify-content: space-between;
+}
+.items {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  @media (max-width: 768px) {
+    gap: 7px;
+  }
+}
+
+.text {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.text_input {
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.input {
+  color: rgb(255, 204, 138);
+  background-color: #5e85c0;
+  @media (max-width: 768px) {
+    width: 102px;
+  }
+}
+
+.container_cards {
+  margin-top: 1.2rem;
+  margin-left: 3.9rem;
+}
+
+.row {
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.pagination_container {
+  display: flex;
+  margin-block: 1.5rem;
+  justify-content: space-between;
+  padding-inline: 2rem;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.result_span {
+  @media (max-width: 768px) {
+    text-align: center;
+
+    margin-bottom: 10px;
+  }
+}
